@@ -1,0 +1,49 @@
+{
+    "env": {
+      "es6": true,
+      "node": true,
+      "mocha": true
+    },
+    "parser": "babel-eslint",
+    "parserOptions": {
+      "ecmaVersion": 2018,
+      "sourceType": "module"
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+      "no-undef": "off",
+      "getter-return": "off",
+      "no-unused-expressions": "warn",
+      "for-direction": "off",
+      "indent": ["error", 2],
+      "max-statements-per-line": ["error", { "max": 1 }],
+      "linebreak-style": ["error", "unix"],
+      "quotes": ["error", "single"],
+      "semi": ["error", "always"],
+      "no-console": 0,
+      "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
+      "spaced-comment": ["error", "always", { "exceptions": ["-", "+"] }],
+      "consistent-return": ["error", { "treatUndefinedAsUnspecified": true }],
+      "sort-vars": "error",
+      "sort-imports": "error",
+      "strict": 0,
+      "max-depth": ["error", 2],
+      "max-nested-callbacks": ["error", 4],
+      "max-params": ["error", 5],
+      "space-unary-ops": [
+        2, {
+          "words": true,
+          "nonwords": false,
+          "overrides": {
+            "new": false,
+            "++": true
+          }
+      }],
+      "space-infix-ops": ["error", {"int32Hint": false}],
+      "arrow-spacing": ["error"],
+      "max-len": [2, 175, 8],
+      "comma-dangle": "off",
+      "object-curly-spacing": [2, "always" ],
+      "space-before-function-paren": "off",
+    }
+  }

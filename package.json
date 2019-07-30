@@ -1,0 +1,11 @@
+{
+  "name": "nightwatch-tutorial",
+  "version": "0.0.1",
+  "description": "NightwatchJS tutorial",
+  "main": "index.js",
+  "author": "Viljar Võidula",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}

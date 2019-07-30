@@ -1,0 +1,37 @@
+{
+  "name": "fresh_boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "js-beautify -r **/*.js && eslint . --fix",
+    "selenium-setup": "selenium-standalone install",
+    "start-selenium": "selenium-standalone start",
+    "start-desktop": "rimraf ./reports && rimraf ./screenshots && nightwatch --config=./index.js",
+    "start-mobile": "rimraf ./reports && rimraf ./screenshots && nightwatch -e chrome_mobile --config=./index.js"
+  },
+  "repository": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/register": "^7.5.5",
+    "babel-eslint": "^10.0.2",
+    "babel-plugin-add-module-exports": "^1.0.2",
+    "dotenv": "^8.0.0",
+    "dotenv-extended": "^2.4.0",
+    "eslint": "^6.1.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "js-beautify": "^1.10.1",
+    "nightwatch": "^1.1.13",
+    "normalize-type": "^1.5.2",
+    "path": "^0.12.7",
+    "rimraf": "^2.6.3",
+    "selenium-standalone": "^6.16.0"
+  }
+}
