@@ -7,7 +7,7 @@
         1. Install the node.js using this URL: https://nodejs.org/en/
         2. Install the yarn using this URL: https://yarnpkg.com/en/docs/install
         3. Install the chrome using this URL: https://google.com/chrome/
-        4. Install JAVA https://www.java.com/en/download/
+        4. Install JAVA-JRE https://www.java.com/en/download/
 
 ## Setup local environment 
 

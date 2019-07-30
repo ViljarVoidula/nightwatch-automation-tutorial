@@ -3,7 +3,7 @@ var hello = 'Hello';
 let world = 'World';
 	// world = 'Mother Earth';
 const constError = '!';
-	// constError = 'Can’t be overwritten and results an error';
+	constError = 'Can’t be overwritten and results an error';
 	
 const boolean = true; 
 const number = 4;
@@ -17,7 +17,7 @@ console.log(`${hello} ${world} ${constError}`);
 
 
 // how ? What?
-if(boolean) console.log(boolean + number);
+// if(boolean) console.log(boolean + number);
 
 
 // console.log(boolean);
