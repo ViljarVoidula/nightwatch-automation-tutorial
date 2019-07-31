@@ -1,3 +1,9 @@
+const vechicle = {
+    color: 'red',
+    brand: 'Toyota',
+    type: 'Car'
+};
+
 const tutorial = {
     greeting : 'Hi there',
     target: 'Student',
@@ -22,6 +28,8 @@ tutorial.exampleMethod();
 
 // const { greeting, target, studentNumber} = tutorial;
 // console.log(`${greeting} ${target}! Your number is ${studentNumber}`)
+
+// Creating new objects using old ones
 
 // let changedTutorial = Object.assign(tutorial, { greeting: 'Hello'});
 // const { greeting, target, studentNumber} = changedTutorial; // Gived you error cause you have already used those variable names
